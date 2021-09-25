@@ -1,0 +1,207 @@
+body{
+	background-color:  #cc0052;
+}
+.maindiv{
+	background-color: whitesmoke;
+	margin: 30px 30px 0px 30px;
+	box-shadow: 0px 0px 15px whitesmoke;
+/*	display: block;
+*/	overflow: auto;
+}
+.header{
+/*	background-color:  #cc0052;
+*/	
+	background-image: url(../img/cover11.jpg);
+	height: 650px;
+	background-repeat-x: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+	/*background-color:rgb(230, 0, 92,0.3);*/
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border-radius: 9px;
+}
+.titles{
+	background-color: rgb(255, 255, 255,0.7);
+	width: 550px;
+/*	margin: 0 auto;*/
+	border-radius: 8px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 30%;
+	padding: 20px 50px 20px 50px;
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+
+}
+h3 {
+	font-size: 50px;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: uppercase;
+	margin: 0px;
+	color:  #b30047;
+	text-align: center;
+}
+.services {
+/*	width: 100%;
+*/	margin: 50px;
+	/*background-color: red;*/
+}
+.leftdiv {
+	width: 500px;
+	height: fit-content;
+	text-align: center;
+	margin: 20px;
+	padding: 0px;
+	background-color: whitesmoke;
+	float: left;
+}
+.img1, .img2{
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+}
+.textleftdiv {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+	background-color:#b30047 ;
+}
+h4{
+	font-size: 30px;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: lowercase;
+	margin: 0px;
+	color:  whitesmoke;
+	text-align: center;
+	padding: 10px;
+}
+.p1{
+	font-size: 20px;
+	height: 100px;
+	overflow-y: scroll;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: lowercase;
+	margin: 0px;
+	padding: 5px;
+	color:  whitesmoke;
+	text-align: center;
+}
+.photo1{
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+.rightdiv {
+	width: 500px;
+	height: fit-content;
+	float: left;
+	margin: 20px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+.rightdiv .p1 {
+	overflow-y: auto;
+}
+.textrightdiv{
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background-color:#b30047 ;
+}
+.readmore {
+	width: 25%;
+	text-align: center;
+	border-radius: 12px;
+	margin-top: 10px;
+	margin: auto;
+	border: 5px solid #b30047;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+	padding: 5px 10px 5px 10px;
+}
+.readmore a, .readmore2 a{
+	text-decoration: none;
+	color: #b30047;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+	margin: 0px 30px 5px 30px;
+	background-color: #cc0052 ;	
+/*	height: 400px;
+*/	/*border: 2px solid black;*/
+	box-shadow: 0px 0px 15px whitesmoke;
+
+}
+.socialmedia {
+/*	background-color: #ffc61a;*/  
+	margin: auto;
+  	text-align: center;
+
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 65px;
+    color: whitesmoke;
+        padding: 20px;
+
+}
+/*.facebook,.twitter, .instagram, .linkedin {
+	width: 100px;
+	height: 100px;
+	padding: 30px;
+}
+*/
+.followus {
+	color: whitesmoke;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+.footer2{
+	background-color: whitesmoke;
+	height: 100px;
+}
+.footerlist {
+	list-style-type: none;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+}
+.footerlist li {
+	display: inline-block;
+	font-size: 25px;
+	padding: 30px;
+	font-weight: bolder;
+
+}
+.footerlist li a{
+	text-decoration: none;
+	color: black;
+}
+ .clearfix {
+ 	clear: both;
+}
+.copyrights{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Rubik', sans-serif;
+}

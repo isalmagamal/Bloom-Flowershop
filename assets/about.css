@@ -1,0 +1,251 @@
+.aboutus{
+	background-color: #1a8cff;
+}
+.maindiv{
+	background-color: whitesmoke;
+	margin: 30px 30px 0px 30px;
+	box-shadow: 0px 0px 15px grey;
+/*	display: block;
+*/	overflow: auto;
+}
+.header{
+	background-color: #1a8cff;
+	width: 100%;
+	height: 150px;
+}
+.logo{
+	width: 300px;
+	height: 150px;
+}
+.menu {
+	list-style-type: none;
+	text-align: center;
+	float: right;
+	margin: 35px;
+
+}
+.menu li {
+  	display: inline-block;
+  	font-size: 25px;
+  	padding: 15px;
+}	
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	padding: 10px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bolder;
+}	
+.menu li a:hover { 
+	background: lightgrey;
+	border-radius: 60%;
+	margin:auto;
+}
+
+
+.immg {
+	margin: 20px;
+	width: 90%;
+}
+.imgtitle{
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.titles{
+	background-color: rgb(255, 255, 255,0.7);
+	width: 550px;
+	color: black;
+/*	margin: 0 auto;*/
+	border-radius: 8px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 25%;
+	padding: 10px 50px 10px 50px;
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+
+}
+h3 {
+	font-size: 50px;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: uppercase;
+	margin: 0px;
+	color:  #008ae6;
+}
+.headlines{
+	font-size: 40px;
+	font-family: 'Oxygen', sans-serif;
+	color: #008ae6;
+	text-align: center;
+	margin: 0px;
+	text-transform: uppercase;
+
+}
+.product{
+	min-width: 33.3%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.ourproducts{
+	display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+/*.product1{
+	margin: 10px 30px 10px 60px;
+	float: left;
+	overflow: hidden;
+
+}*/
+.productimg1 {
+	width: 300px;
+}
+p {
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	font-size:25px;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+
+.readmore, .readmore2{
+	background-color: #1a8cff;
+	width: 25%;
+	text-align: center;
+	border-radius: 12px;
+	margin: 5px;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	color: white;
+}
+
+/*.product2{
+	margin: 10px 50px 10px 50px;
+	float: left;
+
+}*/
+.productimg2, .productimg3 {
+	width: 300px;
+}
+/*.product3{
+	margin: 10px 60px 10px 30px;
+	float: left;
+
+}*/
+.pickdiv {
+	background-color: #1a8cff;
+	text-align: center;
+	border-radius: 12px;
+	font-family: 'Oxygen', sans-serif;
+	padding: 10px;
+	margin: 10px 60px 10px 60px;
+	color: white;
+	font-size: 20px;
+}
+.div2{
+/*	margin: 10px 0px 10px 60px;*/
+    display: flex;
+    justify-content: center;
+}
+.img2{
+	width: 500px;
+}
+.photo1{
+	/*float: left;*/
+	width: 50%;
+	text-align: center;
+}
+.paragraph1{
+	width: 45%;
+	/*float: left;*/
+	font-size: 25px;
+	text-align: left;
+	/*margin-left: 30px;*/
+}
+.p1{
+	font-family: 'Oxygen', sans-serif;
+	text-transform: capitalize;
+	line-height: 40px;
+}
+.readmore2{
+	width: 40%;
+	background-color: #1a8cff;
+	text-align: center;
+	border-radius: 12px;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px 10px 5px 10px;
+}
+
+
+
+
+
+footer{
+	margin: 0px 30px 5px 30px;
+	background-color: #1a8cff ;	
+/*	height: 400px;
+*/	/*border: 2px solid black;*/
+	box-shadow: 0px 0px 15px grey;
+
+}
+.socialmedia {
+/*	background-color: #ffc61a;*/  
+	margin: auto;
+  	text-align: center;
+
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 65px;
+    color: black;
+        padding: 20px;
+
+}
+/*.facebook,.twitter, .instagram, .linkedin {
+	width: 40px;
+	height: 40px;
+	padding: 30px;
+}*/
+
+.followus {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+.footer2{
+	background-color: whitesmoke;
+	height: 100px;
+}
+.footerlist {
+	list-style-type: none;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+}
+.footerlist li {
+	display: inline-block;
+	font-size: 25px;
+	padding: 30px;
+	font-weight: bolder;
+
+}
+.footerlist li a{
+	text-decoration: none;
+	color: black;
+}
+ .clearfix {
+ 	clear: both;
+}
+.copyrights{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Rubik', sans-serif;
+}
